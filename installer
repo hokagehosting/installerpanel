@@ -74,6 +74,7 @@ check_token() {
   fi
   clear
 }
+
 # Install theme
 install_theme() {
   while true; do
@@ -110,6 +111,7 @@ install_theme() {
         ;;
     esac
   done
+
  if [ -e /root/pterodactyl ]; then
     sudo rm -rf /root/pterodactyl
   fi
@@ -214,7 +216,8 @@ else
   echo ""
   echo "Pilihan tidak valid. silahkan pilih 1/2/3."
 fi
-} 
+}
+
 # Uninstall theme
 uninstall_theme() {
   echo -e "                                                       "
