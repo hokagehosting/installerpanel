@@ -74,7 +74,6 @@ check_token() {
   fi
   clear
 }
-
 # Install theme
 install_theme() {
   while true; do
@@ -216,7 +215,6 @@ else
   echo "Pilihan tidak valid. silahkan pilih 1/2/3."
 fi
 } 
-
 # Uninstall theme
 uninstall_theme() {
   echo -e "                                                       "
